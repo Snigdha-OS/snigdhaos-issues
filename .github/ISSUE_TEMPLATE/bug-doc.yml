@@ -33,7 +33,8 @@ body:
   - type: textarea
     attributes:
       label: Write the correction
-      description: It is not necessary to write here. You can directly edit the [documentation](https://github.com/Snigdha-OS/documentation/tree/master/docs) repository
+      description: It is not necessary to write here. You can directly edit the [documentation](https://github.com/Snigdha-OS/documentation/tree/master/docs) repository and create pull request.
+      placeholder: e.g L10 to L12 "Wite down your correction or edit the code directly."
     validations:
       required: false
 
