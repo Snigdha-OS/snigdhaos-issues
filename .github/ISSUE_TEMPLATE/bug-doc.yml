@@ -10,22 +10,6 @@ body:
         - label: I have read the [Contributing Guidelines](https://snigdha-os.github.io/documentation/introduction/contributing).
           required: true
 
-  - type: checkboxes
-    attributes:
-      label: Prerequisites
-      description: Please check the following items before creating a issue. This way we know you've done these steps first.
-      options:
-        - label: I'm using the latest version of the package. Read [How to see package version in Snigdha OS?](https://snigdhaos.org/documentation/blog/)
-          required: true
-        - label: I have cleared the package cache and reinstalled the package. Read [How to clear package cache?](https://snigdhaos.org/documentation/blog/)
-          required: true
-        - label: I have checked for latest package update.
-          required: true
-        - label: I have tried the `sudo pacman -Syyu` or `update` command.
-          required: true
-        - label: I have read the console error message carefully (if applicable).
-        - label: I am not using virtual machine.
-
   - type: input
     attributes:
       label: Package Name
