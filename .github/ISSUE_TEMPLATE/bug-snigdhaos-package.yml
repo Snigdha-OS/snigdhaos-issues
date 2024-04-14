@@ -8,8 +8,8 @@ body:
         ## First Thing First!
 
         Before filing any issue, ask yourself:
-        - Is this clearly a problem of **Snigdha OS**? (e.g rootfs)
-        - Do I have basic ideas about where it goes wrong? (e.g dir)
+        - Are you sure the package built by Snigdha OS? (e.g snigdhaos-welcome) 
+        - Do I have basic ideas about where it goes wrong? (e.g crashing)
         - Could it be because of my own mistakes?
 
         **The GitHub issue tracker is not a support forum**. If you are not sure whether it could be your mistakes, ask in the [Snigdha OS Forum](https://forum.snigdhaos.org/) first. The quickest way to verify whether the problem is of Snigdha OS is through a **reproduction**, starting with a fresh installation(note: install on virtual machine) and making changes until the bug is reproduced.
@@ -33,7 +33,7 @@ body:
       label: Prerequisites
       description: Please check the following items before creating a issue. This way we know you've done these steps first.
       options:
-        - label: I'm using the latest version of **Snigdha OS**.
+        - label: I'm using the latest version of the package.[How to see package version in Snigdha OS?](https://snigdhaos.org/documentation/blog/)
           required: true
         - label: I have reinstalled **Snigdha OS**.
         - label: I have tried the `upgrade` or `update` command.
