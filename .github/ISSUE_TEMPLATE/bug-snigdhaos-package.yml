@@ -47,7 +47,8 @@ body:
   - type: input
     attributes:
       label: Package Name
-      description: A clear and concise description of what the bug is.
+      description: Be sure about the package name.
+      placeholder: e.g snigdhaos-gtk-theme.
     validations:
       required: true
 
