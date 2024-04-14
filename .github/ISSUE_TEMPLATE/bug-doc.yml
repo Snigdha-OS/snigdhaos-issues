@@ -32,10 +32,10 @@ body:
 
   - type: textarea
     attributes:
-      label: Description
-      description: A clear and concise description of what the bug is.
+      label: Write the correction
+      description: It is not necessary to write here. You can directly edit the [documentation](https://github.com/Snigdha-OS/documentation/tree/master/docs) repository
     validations:
-      required: true
+      required: false
 
   - type: input
     attributes:
