@@ -36,6 +36,7 @@ body:
         - label: I'm using the latest version of the package. Read [How to see package version in Snigdha OS?](https://snigdhaos.org/documentation/blog/)
           required: true
         - label: I have cleared the package cache and reinstalled the package. Read [How to clear package cache?](https://snigdhaos.org/documentation/blog/)
+          required: true
         - label: I have reinstalled **Snigdha OS**.
         - label: I have tried the `upgrade` or `update` command.
         - label: I have read the console error message carefully (if applicable).
