@@ -33,7 +33,7 @@ body:
       label: Prerequisites
       description: Please check the following items before creating a issue. This way we know you've done these steps first.
       options:
-        - label: I'm using the latest version of the package.[How to see package version in Snigdha OS?](https://snigdhaos.org/documentation/blog/)
+        - label: I'm using the latest version of the package. Read [How to see package version in Snigdha OS?](https://snigdhaos.org/documentation/blog/)
           required: true
         - label: I have reinstalled **Snigdha OS**.
         - label: I have tried the `upgrade` or `update` command.
