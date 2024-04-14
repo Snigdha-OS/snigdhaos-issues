@@ -44,7 +44,7 @@ body:
         - label: I have read the console error message carefully (if applicable).
         - label: I am not using virtual machine.
 
-  - type: text
+  - type: textarea
     attributes:
       label: Package Name
       description: A clear and concise description of what the bug is.
