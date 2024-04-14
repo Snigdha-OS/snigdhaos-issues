@@ -34,9 +34,9 @@ body:
       label: Prerequisites
       description: Please check the following items before creating a issue. This way we know you've done these steps first.
       options:
-        - label: I'm using the latest version of the package. Read [How to see package version in Snigdha OS?](https://snigdhaos.org/documentation/blog/)
+        - label: I'm using the latest version of the package. Read [How to see package version in Snigdha OS?](https://snigdhaos.org/blog/check-package-version-on-snigdha-os/)
           required: true
-        - label: I have cleared the package cache and reinstalled the package. Read [How to clear package cache?](https://snigdhaos.org/documentation/blog/)
+        - label: I have cleared the package cache and reinstalled the package. Read [How to clear package cache?](https://snigdhaos.org/blog/check-package-version-on-snigdha-os/)
           required: true
         - label: I have checked for latest package update.
           required: true
