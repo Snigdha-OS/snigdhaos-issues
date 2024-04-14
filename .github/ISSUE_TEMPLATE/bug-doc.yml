@@ -1,6 +1,7 @@
 name: 👾 Report Mistakes in Documentation
 description: Help us to build a better guidelines for you 
 labels: [bug]
+assignees: eshanized
 body:
   
   - type: checkboxes
