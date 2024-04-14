@@ -20,13 +20,12 @@ body:
   
   - type: dropdown
     attributes:
-      label: What browsers are you seeing the problem on?
+      label: What Type of Mistake we made?
       multiple: true
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+        - Spelling Mistake
+        - Wrong Documentation or Code Not Working
+        - Incomplete Documentation
     validations:
       required: true
 
