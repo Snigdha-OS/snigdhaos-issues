@@ -72,6 +72,7 @@ body:
         - You might figure out the issues yourself as you work on extracting it.
 
         Thanks for helping us help you!
+      placeholder: e.g https://github.com/eshanized/snigdhaos-welcome
 
   - type: textarea
     attributes:
