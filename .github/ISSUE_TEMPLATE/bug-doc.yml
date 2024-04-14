@@ -12,9 +12,9 @@ body:
 
   - type: input
     attributes:
-      label: Package Name
-      description: Be sure about the package name.
-      placeholder: e.g stacer.
+      label: Full URL
+      description: Be careful while you copy the link.
+      placeholder: e.g https://snigdhaos.org/documentation/installation/download_snigdha_os
     validations:
       required: true
 
