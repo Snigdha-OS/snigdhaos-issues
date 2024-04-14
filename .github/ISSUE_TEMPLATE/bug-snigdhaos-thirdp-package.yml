@@ -8,7 +8,8 @@ body:
         ## First Thing First!
 
         Before filing any issue, ask yourself:
-        - Are you sure the package built by Snigdha OS? (e.g snigdhaos-welcome) 
+        - Are you sure the package is not built by Snigdha OS? (e.g stacer) 
+        - Are you sure the package comes built-in with Snigdha OS?
         - Do I have basic ideas about where it goes wrong? (e.g crashing)
         - Could it be because of my own mistakes?
 
@@ -48,7 +49,7 @@ body:
     attributes:
       label: Package Name
       description: Be sure about the package name.
-      placeholder: e.g snigdhaos-gtk-theme.
+      placeholder: e.g stacer.
     validations:
       required: true
 
