@@ -1,6 +1,7 @@
 name: 👾 Report Bug in $Packages of Snigdha OS
 description: Help us to improve the $Packages Snigdha OS 
 labels: [bug]
+assignees: eshanized
 body:
   - type: markdown
     attributes:

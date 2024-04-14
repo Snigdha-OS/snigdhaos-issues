@@ -1,6 +1,7 @@
 name: 👾 Report Bug in Snigdha OS
 description: Help us to improve Snigdha OS
 labels: [bug]
+assignees: eshanized
 body:
   - type: markdown
     attributes:
