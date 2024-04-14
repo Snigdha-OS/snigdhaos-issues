@@ -38,54 +38,6 @@ body:
     validations:
       required: false
 
-  - type: input
-    attributes:
-      label: Reproducible demo
-      description: |
-        > **What happens if you skip this step?** Someone will read your bug report, and maybe will be able to help you, but it’s unlikely that it will get much attention from the team. Eventually, the issue will likely get closed in favor of issues that have reproducible demos.
-
-        Please remember that:
-
-        - Issues without reproducible demos have a very low priority.
-        - The person fixing the bug would have to do that anyway. Please be respectful of their time.
-        - You might figure out the issues yourself as you work on extracting it.
-
-        Thanks for helping us help you!
-      placeholder: e.g https://github.com/eshanized/snigdhaos-welcome
-
-  - type: textarea
-    attributes:
-      label: Steps to reproduce
-      description: Write down the steps to reproduce the bug. You should start with a fresh installation, or your git repository linked above.
-      placeholder: |
-        Step 1:
-        Step 2:
-        Step 3:
-        Step 4:
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Expected behavior
-      description: |
-        How did you expect your project to behave? It’s fine if you’re not sure your understanding is correct. Write down what you thought would happen.
-      placeholder: Write what you thought would happen.
-    validations:
-      required: true
-
-  - type: textarea
-    attributes:
-      label: Actual behavior
-      description: |
-        Did something go wrong? Is something broken, or not behaving as you expected?
-        Describe this section in detail, and attach screenshots if possible. Don't only say "it doesn't work"!
-        Please submit exhaustive and complete log messages (we also need the error stack-traces, not just the message).
-        > Please read error messages carefully: it often tells you exactly what you are doing wrong.
-      placeholder: Write what happened. Add full console log messages and screenshots, if applicable.
-    validations:
-      required: true
-
   - type: textarea
     attributes:
       label: Your PC Specification
