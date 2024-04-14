@@ -37,8 +37,10 @@ body:
           required: true
         - label: I have cleared the package cache and reinstalled the package. Read [How to clear package cache?](https://snigdhaos.org/documentation/blog/)
           required: true
-        - label: I have checked for latest package by executing `sudo pacman -Syyu` or `update`
-        - label: I have tried the `upgrade` or `update` command.
+        - label: I have checked for latest package update.
+          required: true
+        - label: I have tried the `sudo pacman -Syyu` or `update` command.
+          required: true
         - label: I have read the console error message carefully (if applicable).
         - label: I am not using virtual machine.
 
