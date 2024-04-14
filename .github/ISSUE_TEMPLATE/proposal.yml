@@ -1,5 +1,5 @@
-name: 💥 Proposal
-description: Propose a non-trivial change to Snigdha OS
+name: 📝 Proposal
+description: Propose a non-trivial change to Snigdha OS or in Packages
 labels: [proposal]
 body:
   - type: markdown
