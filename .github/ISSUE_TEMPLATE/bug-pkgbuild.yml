@@ -1,7 +1,7 @@
 name: 👾 Report Bug in PKGBUILD of Snigdha OS
 description: Help us to improve/fix the PKGBUILD for Snigdha OS 
 labels: [bug]
-assignees: eshanized
+assignees: eshanized, iconized
 body:
   - type: markdown
     attributes:
