@@ -34,14 +34,16 @@ body:
       label: Prerequisites
       description: Please check the following items before creating a issue. This way we know you've done these steps first.
       options:
+        - label: Snigdha OS Mirror has been installed. [Install Snigdha OS Mirror top of Arch Based Linux](https://snigdha-os.github.io/blog/)
+          required: true
         - label: I have read the console error message carefully (if applicable).
         - label: I am not using virtual machine.
 
   - type: input
     attributes:
       label: Package Name
-      description: Be sure about the package name.
-      placeholder: e.g snigdhaos-gtk-theme.
+      description: Package Name can be found in the script pkgname=  
+      placeholder: e.g snigdhaos-grub-theme
     validations:
       required: true
 
