@@ -16,9 +16,7 @@ body:
       label: Full URL
       description: Be careful while you copy the link.
       placeholder: e.g https://snigdhaos.org/documentation/installation/download_snigdha_os
-    validations:
-      required: true
-  
+
   - type: dropdown
     attributes:
       label: What Type of Mistake We Made?
@@ -31,16 +29,12 @@ body:
         - Incorrect Instructions
         - Outdated Information
         - Other (please specify)
-    validations:
-      required: true
 
   - type: textarea
     attributes:
       label: Write the correction
       description: It is not necessary to write here. You can directly edit the [documentation](https://github.com/Snigdha-OS/documentation/tree/master/docs) repository and create a pull request.
       placeholder: e.g L10 to L12 "Write down your correction or edit the code directly."
-    validations:
-      required: false
 
   - type: textarea
     attributes:
@@ -66,15 +60,12 @@ body:
         If you check this box, please send a pull request within 7 days so we can delegate this to someone else if necessary.
       options:
         - label: I'd be willing to fix this bug myself.
-          required: false
 
   - type: input
     attributes:
       label: Estimated Time to Fix
       description: Please provide an estimate on how long you think it will take to fix the issue.
       placeholder: e.g 1-2 hours
-    validations:
-      required: false
 
   - type: textarea
     attributes:
@@ -83,16 +74,12 @@ body:
         If you have any additional comments or insights about the documentation issue, feel free to share.
         This can include details about possible improvements or potential fixes.
       placeholder: e.g "The page layout might be improved for clarity."
-    validations:
-      required: false
 
   - type: input
     attributes:
       label: Your GitHub Username
       description: If you'd like us to acknowledge your contribution, provide your GitHub username.
       placeholder: e.g johndoe
-    validations:
-      required: false
 
   - type: checkboxes
     attributes:
@@ -101,7 +88,6 @@ body:
         If you resolve this issue yourself by submitting a PR, kindly acknowledge the resolution.
       options:
         - label: I will submit a pull request to fix this issue.
-          required: false
 
   - type: dropdown
     attributes:
@@ -110,8 +96,6 @@ body:
       options:
         - label: Yes
         - label: No
-      validations:
-        required: false
 
   - type: textarea
     attributes:
@@ -119,5 +103,3 @@ body:
       description: |
         If the issue is related to translation (e.g. wrong or missing translations), please provide details and the language in which the translation error occurred.
       placeholder: e.g "In Spanish translation, the word 'install' is missing from the instructions on page X."
-    validations:
-      required: false
