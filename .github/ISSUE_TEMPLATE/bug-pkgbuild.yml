@@ -27,8 +27,7 @@ body:
       label: ✅ Have you read the Contributing Guidelines?
       options:
         - label: I have read the [Contributing Guidelines](https://snigdha-os.github.io/documentation/introduction/contributing)
-      validations:
-        required: true
+      required: true
 
   - type: checkboxes
     attributes:
@@ -38,22 +37,19 @@ body:
         - label: Snigdha OS Mirror has been installed. [Install Snigdha OS Mirror top of Arch Based Linux](https://snigdha-os.github.io/blog/)
         - label: I have read the console error message carefully (if applicable).
         - label: I am not using a virtual machine.
-      validations:
-        required: true
+      required: true
 
   - type: input
     attributes:
       label: 📦 Package Name
       description: Package Name can be found in the script pkgname=
       placeholder: e.g snigdhaos-grub-theme
-    validations:
       required: true
 
   - type: textarea
     attributes:
       label: 📝 Description
       description: A clear and concise description of what the bug is.
-    validations:
       required: true
 
   - type: input
@@ -70,7 +66,6 @@ body:
 
         Thanks for helping us help you!
       placeholder: e.g https://github.com/eshanized/snigdhaos-welcome
-    validations:
       required: true
 
   - type: textarea
@@ -82,7 +77,6 @@ body:
         Step 2:
         Step 3:
         Step 4:
-    validations:
       required: true
 
   - type: textarea
@@ -91,7 +85,6 @@ body:
       description: |
         How did you expect your project to behave? It’s fine if you’re not sure your understanding is correct. Write down what you thought would happen.
       placeholder: Write what you thought would happen.
-    validations:
       required: true
 
   - type: textarea
@@ -103,7 +96,6 @@ body:
         Please submit exhaustive and complete log messages (we also need the error stack-traces, not just the message).
         > Please read error messages carefully: it often tells you exactly what you are doing wrong.
       placeholder: Write what happened. Add full console log messages and screenshots, if applicable.
-    validations:
       required: true
 
   - type: textarea
@@ -118,7 +110,6 @@ body:
         - STORAGE: [e.g SSD/HDD]
         - Snigdha OS Build: [e.g arctic]
         - Snigdha OS Version: [e.g 4.5]
-    validations:
       required: true
 
   - type: checkboxes
@@ -129,7 +120,6 @@ body:
         If you do check this box, please send a pull request within 7 days so we can still delegate this to someone else.
       options:
         - label: I'd be willing to fix this bug myself.
-    validations:
       required: true
 
   - type: input
@@ -137,7 +127,6 @@ body:
       label: ⏳ Estimated Time to Fix
       description: Please provide an estimate on how long you think it will take to fix the issue.
       placeholder: e.g 1-2 hours
-    validations:
       required: true
 
   - type: textarea
@@ -147,7 +136,6 @@ body:
         If you have any additional comments or insights about the issue, feel free to share.
         This can include details about possible improvements or potential fixes.
       placeholder: e.g "The error message could be more descriptive."
-    validations:
       required: true
 
   - type: input
@@ -155,7 +143,6 @@ body:
       label: 👤 Your GitHub Username
       description: If you'd like us to acknowledge your contribution, provide your GitHub username.
       placeholder: e.g johndoe
-    validations:
       required: true
 
   - type: checkboxes
@@ -165,7 +152,6 @@ body:
         If you resolve this issue yourself by submitting a PR, kindly acknowledge the resolution.
       options:
         - label: I will submit a pull request to fix this issue.
-    validations:
       required: true
 
   - type: dropdown
@@ -175,7 +161,6 @@ body:
       options:
         - label: "Yes"
         - label: "No"
-    validations:
       required: true
 
   - type: textarea
@@ -184,5 +169,4 @@ body:
       description: |
         If the issue is related to translation (e.g. wrong or missing translations), please provide details and the language in which the translation error occurred.
       placeholder: e.g "In Spanish translation, the word 'install' is missing from the instructions on page X."
-    validations:
       required: true
