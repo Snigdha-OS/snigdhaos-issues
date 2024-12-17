@@ -3,7 +3,7 @@
 Welcome to the **Snigdha OS Issues** repository! 🚀  
 This is the place where we track and manage issues related to **Snigdha OS**, our lightweight, customizable Linux distribution. Whether you’ve found a bug, a feature request, or anything else that requires attention, this is where you can help us improve Snigdha OS! 💻
 
----
+
 
 ## 📚 Table of Contents
 
@@ -13,7 +13,7 @@ This is the place where we track and manage issues related to **Snigdha OS**, ou
 - [💬 Contributing](#contributing)
 - [🔗 Links](#links)
 
----
+
 
 ## 📝 Overview
 
@@ -21,7 +21,7 @@ Snigdha OS is a **lightweight**, **highly customizable** Linux distribution base
 
 This repository tracks the issues related to Snigdha OS, where users can report bugs, request features, or suggest improvements. 🐛✨
 
----
+
 
 ## 🐞 Reporting Issues
 
@@ -40,7 +40,7 @@ If you've encountered a bug, feature request, or have feedback, here’s how to 
    - Screenshots, logs, and error messages (if applicable)
 4. **Be Specific**: The more information you provide, the easier it will be for us to understand and address your issue. 📸
 
----
+
 
 ## 🛠️ Development Guide
 
@@ -68,7 +68,7 @@ If you’d like to contribute to the development of Snigdha OS, we welcome your 
 3. **Set Up the Development Environment**:  
    For local development and testing, use a virtual machine or containerized environment to prevent any conflicts with your main system.
 
----
+
 
 ### 🔨 Common Tasks
 
@@ -90,7 +90,7 @@ If you’d like to contribute to the development of Snigdha OS, we welcome your 
 4. **Updating Documentation**:
    If you’re working on documentation, be sure to update the markdown files in the `docs/` directory. Keep the formatting clean, and be sure to include relevant emojis! ✨
 
----
+
 
 ## 💬 Contributing
 
@@ -109,7 +109,7 @@ We welcome contributions from everyone! Whether you're fixing a bug, adding a fe
 
 Please adhere to our [Code of Conduct](https://snigdha-os.github.io/documentation/introduction/code-of-conduct).
 
----
+
 
 ## 🔗 Links
 
@@ -118,7 +118,7 @@ Please adhere to our [Code of Conduct](https://snigdha-os.github.io/documentatio
 - [Snigdha OS Forum](https://forum.snigdhaos.org/)
 - [Snigdha OS GitHub Repository](https://github.com/Snigdha-OS/snigdhaos)
 
----
+
 
 ## 💡 Let's make Snigdha OS better together! ✨
 
