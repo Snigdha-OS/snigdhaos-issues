@@ -1,9 +1,9 @@
 name: 👾 Report Mistakes in Documentation
-description: Help us to build a better guidelines for you 
+description: Help us to build a better guideline for you.
 labels: [bug]
 assignees: eshanized
 body:
-  
+
   - type: checkboxes
     attributes:
       label: Have you read the Contributing Guidelines?
@@ -21,21 +21,24 @@ body:
   
   - type: dropdown
     attributes:
-      label: What Type of Mistake we made?
-      description: You can select more than one options.
+      label: What Type of Mistake We Made?
+      description: You can select more than one option.
       multiple: true
       options:
         - Spelling Mistake
         - Wrong Documentation or Code Not Working
         - Incomplete Documentation
+        - Incorrect Instructions
+        - Outdated Information
+        - Other (please specify)
     validations:
       required: true
 
   - type: textarea
     attributes:
       label: Write the correction
-      description: It is not necessary to write here. You can directly edit the [documentation](https://github.com/Snigdha-OS/documentation/tree/master/docs) repository and create pull request.
-      placeholder: e.g L10 to L12 "Wite down your correction or edit the code directly."
+      description: It is not necessary to write here. You can directly edit the [documentation](https://github.com/Snigdha-OS/documentation/tree/master/docs) repository and create a pull request.
+      placeholder: e.g L10 to L12 "Write down your correction or edit the code directly."
     validations:
       required: false
 
@@ -43,7 +46,7 @@ body:
     attributes:
       label: Your PC Specification
       description: |
-        Include as many relevant details about the environment you experienced the bug in.
+        Include as many relevant details about the environment where you experienced the issue.
         > run `cat /etc/os-release` on terminal to see **OS Build ID**
       value: |
         - CPU: [e.g i5 1335U]
@@ -51,12 +54,70 @@ body:
         - STORAGE: [e.g SSD/HDD]
         - Snigdha OS Build: [e.g arctic]
         - Snigdha OS Version: [e.g 4.5]
+        - OS: [e.g Ubuntu 20.04]
+        - Kernel: [e.g 5.4.0-80-generic]
+        - Architecture: [e.g x86_64]
 
   - type: checkboxes
     attributes:
       label: Self-service
       description: |
-        If you feel like you could contribute to this issue, please check the box below. This would tell us and other people looking for contributions that someone's working on it.
-        If you do check this box, please send a pull request within 7 days so we can still delegate this to someone else.
+        If you feel like you could contribute to fixing this issue, please check the box below. This will notify us and others looking for contributions that someone's working on it.
+        If you check this box, please send a pull request within 7 days so we can delegate this to someone else if necessary.
       options:
         - label: I'd be willing to fix this bug myself.
+          required: false
+
+  - type: input
+    attributes:
+      label: Estimated Time to Fix
+      description: Please provide an estimate on how long you think it will take to fix the issue.
+      placeholder: e.g 1-2 hours
+    validations:
+      required: false
+
+  - type: textarea
+    attributes:
+      label: Additional Comments
+      description: |
+        If you have any additional comments or insights about the documentation issue, feel free to share.
+        This can include details about possible improvements or potential fixes.
+      placeholder: e.g "The page layout might be improved for clarity."
+    validations:
+      required: false
+
+  - type: input
+    attributes:
+      label: Your GitHub Username
+      description: If you'd like us to acknowledge your contribution, provide your GitHub username.
+      placeholder: e.g johndoe
+    validations:
+      required: false
+
+  - type: checkboxes
+    attributes:
+      label: Acknowledge Self-Resolution
+      description: |
+        If you resolve this issue yourself by submitting a PR, kindly acknowledge the resolution.
+      options:
+        - label: I will submit a pull request to fix this issue.
+          required: false
+
+  - type: dropdown
+    attributes:
+      label: Is This Issue Related to Translation?
+      description: If the documentation mistake is related to translation, select "Yes" and provide details.
+      options:
+        - label: Yes
+        - label: No
+      validations:
+        required: false
+
+  - type: textarea
+    attributes:
+      label: Translation Details (if applicable)
+      description: |
+        If the issue is related to translation (e.g. wrong or missing translations), please provide details and the language in which the translation error occurred.
+      placeholder: e.g "In Spanish translation, the word 'install' is missing from the instructions on page X."
+    validations:
+      required: false
