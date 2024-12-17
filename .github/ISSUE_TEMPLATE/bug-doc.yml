@@ -9,14 +9,12 @@ body:
       label: Have you read the Contributing Guidelines?
       options:
         - label: I have read the [Contributing Guidelines](https://snigdha-os.github.io/documentation/introduction/contributing).
-          required: true
 
   - type: input
     attributes:
       label: Full URL
       description: Be careful while you copy the link.
       placeholder: e.g https://snigdhaos.org/documentation/installation/download_snigdha_os
-      required: true
 
   - type: dropdown
     attributes:
@@ -30,14 +28,12 @@ body:
         - Incorrect Instructions
         - Outdated Information
         - Other (please specify)
-      required: true
 
   - type: textarea
     attributes:
       label: Write the correction
       description: It is not necessary to write here. You can directly edit the [documentation](https://github.com/Snigdha-OS/documentation/tree/master/docs) repository and create a pull request.
       placeholder: e.g L10 to L12 "Write down your correction or edit the code directly."
-      required: true
 
   - type: textarea
     attributes:
@@ -54,7 +50,6 @@ body:
         - OS: [e.g Ubuntu 20.04]
         - Kernel: [e.g 5.4.0-80-generic]
         - Architecture: [e.g x86_64]
-      required: true
 
   - type: checkboxes
     attributes:
@@ -64,14 +59,12 @@ body:
         If you check this box, please send a pull request within 7 days so we can delegate this to someone else if necessary.
       options:
         - label: I'd be willing to fix this bug myself.
-      required: true
 
   - type: input
     attributes:
       label: Estimated Time to Fix
       description: Please provide an estimate on how long you think it will take to fix the issue.
       placeholder: e.g 1-2 hours
-      required: true
 
   - type: textarea
     attributes:
@@ -80,14 +73,12 @@ body:
         If you have any additional comments or insights about the documentation issue, feel free to share.
         This can include details about possible improvements or potential fixes.
       placeholder: e.g "The page layout might be improved for clarity."
-      required: true
 
   - type: input
     attributes:
       label: Your GitHub Username
       description: If you'd like us to acknowledge your contribution, provide your GitHub username.
       placeholder: e.g johndoe
-      required: true
 
   - type: checkboxes
     attributes:
@@ -96,16 +87,14 @@ body:
         If you resolve this issue yourself by submitting a PR, kindly acknowledge the resolution.
       options:
         - label: I will submit a pull request to fix this issue.
-      required: true
 
   - type: dropdown
     attributes:
       label: Is This Issue Related to Translation?
       description: If the documentation mistake is related to translation, select "Yes" and provide details.
       options:
-        - Yes
-        - No
-      required: true
+        - label: "Yes"
+        - label: "No"
 
   - type: textarea
     attributes:
@@ -113,4 +102,3 @@ body:
       description: |
         If the issue is related to translation (e.g. wrong or missing translations), please provide details and the language in which the translation error occurred.
       placeholder: e.g "In Spanish translation, the word 'install' is missing from the instructions on page X."
-      required: true
