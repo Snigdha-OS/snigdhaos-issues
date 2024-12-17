@@ -1,62 +1,64 @@
 name: 👾 Report Bug in PKGBUILD of Snigdha OS
-description: Help us to improve/fix the PKGBUILD for Snigdha OS 
+description: Help us to improve/fix the PKGBUILD for Snigdha OS
 labels: [bug]
 assignees: eshanized, iconized
 body:
   - type: markdown
     attributes:
       value: |
-        ## First Thing First!
+        ## First Thing First! 📝
 
         Before filing any issue, ask yourself:
         - Are you sure the PKGBUILD written by Snigdha OS? (e.g snigdhaos-welcome) 
         - Do I have basic ideas about where it goes wrong? (e.g failed to build!)
         - Could it be because of my own mistakes?
 
-        **The GitHub issue tracker is not a support forum**. If you are not sure whether it could be your mistakes, ask in the [Snigdha OS Forum](https://forum.snigdhaos.org/) first. The quickest way to verify whether the problem is of Snigdha OS is through a **reproduction**, starting with a fresh installation(note: install on virtual machine) and making changes until the bug is reproduced.
+        **The GitHub issue tracker is not a support forum**. If you are not sure whether it could be your mistakes, ask in the [Snigdha OS Forum](https://forum.snigdhaos.org/) first. The quickest way to verify whether the problem is of Snigdha OS is through a **reproduction**, starting with a fresh installation (note: install on virtual machine) and making changes until the bug is reproduced.
 
         Make the bug obvious. Ideally, we should be able to understand it without running any code.
 
         Bugs are fixed faster if you include:
         - A repro repository to inspect the code
-        - An url to see the problem live (if possible)
+        - A URL to see the problem live (if possible)
 
 
   - type: checkboxes
     attributes:
-      label: Have you read the Contributing Guidelines?
+      label: ✅ Have you read the Contributing Guidelines?
       options:
-        - label: I have read the [Contributing Guidelines](https://snigdha-os.github.io/documentation/introduction/contributing).
-          required: true
+        - label: I have read the [Contributing Guidelines](https://snigdha-os.github.io/documentation/introduction/contributing)
+      validations:
+        required: true
 
   - type: checkboxes
     attributes:
-      label: Prerequisites
-      description: Please check the following items before creating a issue. This way we know you've done these steps first.
+      label: 🔧 Prerequisites
+      description: Please check the following items before creating an issue. This way we know you've done these steps first.
       options:
         - label: Snigdha OS Mirror has been installed. [Install Snigdha OS Mirror top of Arch Based Linux](https://snigdha-os.github.io/blog/)
-          required: true
         - label: I have read the console error message carefully (if applicable).
-        - label: I am not using virtual machine.
+        - label: I am not using a virtual machine.
+      validations:
+        required: true
 
   - type: input
     attributes:
-      label: Package Name
-      description: Package Name can be found in the script pkgname=  
+      label: 📦 Package Name
+      description: Package Name can be found in the script pkgname=
       placeholder: e.g snigdhaos-grub-theme
     validations:
       required: true
 
   - type: textarea
     attributes:
-      label: Description
+      label: 📝 Description
       description: A clear and concise description of what the bug is.
     validations:
       required: true
 
   - type: input
     attributes:
-      label: Reproducible demo
+      label: 🔍 Reproducible demo
       description: |
         > **What happens if you skip this step?** Someone will read your bug report, and maybe will be able to help you, but it’s unlikely that it will get much attention from the team. Eventually, the issue will likely get closed in favor of issues that have reproducible demos.
 
@@ -68,10 +70,12 @@ body:
 
         Thanks for helping us help you!
       placeholder: e.g https://github.com/eshanized/snigdhaos-welcome
+    validations:
+      required: true
 
   - type: textarea
     attributes:
-      label: Steps to reproduce
+      label: 🛠️ Steps to reproduce
       description: Write down the steps to reproduce the bug. You should start with a fresh installation, or your git repository linked above.
       placeholder: |
         Step 1:
@@ -83,7 +87,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Expected behavior
+      label: 💡 Expected behavior
       description: |
         How did you expect your project to behave? It’s fine if you’re not sure your understanding is correct. Write down what you thought would happen.
       placeholder: Write what you thought would happen.
@@ -92,7 +96,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Actual behavior
+      label: ⚠️ Actual behavior
       description: |
         Did something go wrong? Is something broken, or not behaving as you expected?
         Describe this section in detail, and attach screenshots if possible. Don't only say "it doesn't work"!
@@ -104,7 +108,7 @@ body:
 
   - type: textarea
     attributes:
-      label: Your PC Specification
+      label: 🖥️ Your PC Specification
       description: |
         Include as many relevant details about the environment you experienced the bug in.
         > run `cat /etc/os-release` on terminal to see **OS Build ID**
@@ -114,12 +118,71 @@ body:
         - STORAGE: [e.g SSD/HDD]
         - Snigdha OS Build: [e.g arctic]
         - Snigdha OS Version: [e.g 4.5]
+    validations:
+      required: true
 
   - type: checkboxes
     attributes:
-      label: Self-service
+      label: 🛠️ Self-service
       description: |
         If you feel like you could contribute to this issue, please check the box below. This would tell us and other people looking for contributions that someone's working on it.
         If you do check this box, please send a pull request within 7 days so we can still delegate this to someone else.
       options:
         - label: I'd be willing to fix this bug myself.
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: ⏳ Estimated Time to Fix
+      description: Please provide an estimate on how long you think it will take to fix the issue.
+      placeholder: e.g 1-2 hours
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 💬 Additional Comments
+      description: |
+        If you have any additional comments or insights about the issue, feel free to share.
+        This can include details about possible improvements or potential fixes.
+      placeholder: e.g "The error message could be more descriptive."
+    validations:
+      required: true
+
+  - type: input
+    attributes:
+      label: 👤 Your GitHub Username
+      description: If you'd like us to acknowledge your contribution, provide your GitHub username.
+      placeholder: e.g johndoe
+    validations:
+      required: true
+
+  - type: checkboxes
+    attributes:
+      label: ✅ Acknowledge Self-Resolution
+      description: |
+        If you resolve this issue yourself by submitting a PR, kindly acknowledge the resolution.
+      options:
+        - label: I will submit a pull request to fix this issue.
+    validations:
+      required: true
+
+  - type: dropdown
+    attributes:
+      label: 🌍 Is This Issue Related to Translation?
+      description: If the issue is related to translation, select "Yes" and provide details.
+      options:
+        - label: "Yes"
+        - label: "No"
+    validations:
+      required: true
+
+  - type: textarea
+    attributes:
+      label: 🈳 Translation Details (if applicable)
+      description: |
+        If the issue is related to translation (e.g. wrong or missing translations), please provide details and the language in which the translation error occurred.
+      placeholder: e.g "In Spanish translation, the word 'install' is missing from the instructions on page X."
+    validations:
+      required: true
